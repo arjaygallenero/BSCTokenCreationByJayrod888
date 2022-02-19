@@ -3,9 +3,9 @@ pragma solidity ^0.8.2;
 contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
-    uint public totalSupply = 1800000000 * 10 ** 18;
-    string public name = "PaysbookCoinWeb3.0";
-    string public symbol = "PBC";
+    uint public totalSupply = 100000 * 10 ** 18;
+    string public name = "MultitudeTechToken";
+    string public symbol = "MTT";
     uint public decimals = 18;
     
     event Transfer(address indexed from, address indexed to, uint value);
